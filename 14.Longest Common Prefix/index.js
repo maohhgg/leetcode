@@ -2,10 +2,8 @@
  * @param {string[]} strs
  * @return {string}
  */
-var longestCommonPrefix = function(strs) {
-    if(strs.length == 0){
-        return '';
-    }
+var longestCommonPrefix_d = function(strs) {
+    if (strs == null || strs.length == 0) return "";
     var temp = strs[0];
     strs.forEach(function(element) {
         if(element.length <= temp.length){
@@ -30,4 +28,16 @@ var longestCommonPrefix = function(strs) {
     }
     return temp;
 };
-console.log(longestCommonPrefix(['ca','a']));
+var longestCommonPrefix = function(strs) {
+    if (strs == null || strs.length == 0) return "";
+    for (var i = 0; i < strs[0].length ; i++){
+        var c = strs[0].charAt(i);
+        for (var j = 1; j < strs.length; j ++) {
+            if (i == strs[j].length || strs[j].charAt(i) != c)
+                return strs[0].substr(0, i);             
+        }
+    }
+    return strs[0];
+};
+
+console.log(longestCommonPrefix(['ab','abc']));
