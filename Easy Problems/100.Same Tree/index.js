@@ -50,15 +50,10 @@ var isSameTree = function(p, q) {
 
 
 
-var p = TreeFunction.createBinaryTree([1,2,4,0,0,0,3,0,0]);
-// var q = createBinaryTree([1,2,4,0,0,0,3,0,0]);
-// var q = p;
-var q = TreeFunction.createBinaryTree([6,2,1,0,0,4,3,0,0,0,8,0,0]);
-// TreeFunction.preOrderTraverse(p);
-// TreeFunction.inOrderTraverse(p);
-// TreeFunction.lastOrderTraverse(p);
-// TreeFunction.preOrderTraverse(q);
-// console.log(TreeFunction.maxDepth(p));
-// console.log(TreeFunction.nodeNum(p));
-// console.log(TreeFunction.leafNum(p));
-console.log(isSameTree(p,q));
+var p = TreeFunction.createBiTree([1,2,3,4]);
+var q1 = TreeFunction.createBiTree([1,2,3,4]); // true
+var q2 = p; // true
+var q3 = TreeFunction.createBiTree([6,2,8,1,4,null,null,null,null,3]); // false
+console.log("p === q1 "+isSameTree(p,q1));
+console.log("p === q2 "+isSameTree(p,q2));
+console.log("p === q3 "+isSameTree(p,q3));

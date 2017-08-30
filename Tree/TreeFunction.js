@@ -1,6 +1,6 @@
 var TreeNode = require("./TreeNode.js");
 
-// TODO 待优化
+// 优化 完成
 this.createBinaryTree = function(nums){
     var a = nums.shift();
     if(a == 0){
@@ -10,6 +10,20 @@ this.createBinaryTree = function(nums){
         p.val = a;
         p.left = this.createBinaryTree(nums);
         p.right = this.createBinaryTree(nums);
+    }
+    return p;
+}
+this.createBiTree = function(nums){
+    return this._createBiTree(nums,0);
+}
+this._createBiTree = function(nums,n){
+    if(n >= nums.length || nums[n] === null){
+        var p = null;
+    } else {
+        var p = new TreeNode.TreeNode();
+        p.val = nums[n];
+        p.left = this._createBiTree(nums,2*n+1);
+        p.right = this._createBiTree(nums,2*n+2);
     }
     return p;
 }

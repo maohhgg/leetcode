@@ -20,5 +20,6 @@ var maxDepth = function(root) {
 };
 
 
-var p = TreeFunction.createBinaryTree([1,2,3,0,0,4,0,0,2,4,0,0,3,0,0]);
+var p = TreeFunction.createBiTree([6,2,8,1,4,null,null,null,null,3]);
+// var p = TreeFunction.createBiTree([3,9,20,null,null,15,7]);
 console.log(maxDepth(p));
