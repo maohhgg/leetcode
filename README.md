@@ -48,6 +48,9 @@ D:\leetcode>node ./"Easy Problems"/"88.Merge Sorted Array"/
 // 引入 模块
 var Tree = require("../../Tree/TreeFunction.js")
 
+// 创建一个 TreeNode 实例
+var p = Tree.createTreeNode(5);
+
 // 创建二叉树 
 //     1
 //    / \

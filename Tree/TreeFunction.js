@@ -13,6 +13,11 @@ this.createBinaryTree = function(nums){
     }
     return p;
 }
+this.createTreeNode = function(num){
+    var p = new TreeNode.TreeNode();
+    p.val = num;
+    return p;
+}
 this.createBiTree = function(nums){
     return this._createBiTree(nums,0);
 }
