@@ -6,9 +6,9 @@
 
 - [ ] 1.所有的Easy Problems
 
-- [x] 2.所有的Medium Problems
+- [ ] 2.所有的Medium Problems
 
-- [x] 3.所有的Hard Problems
+- [ ] 3.所有的Hard Problems
 
 ### Easy Problems
 
