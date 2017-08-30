@@ -2,7 +2,7 @@
 
 > 我的 LeetCode 补全计划，旨在用 JavaScript 刷完所有的 LeetCode Problems :scream:
 
-### 简介
+## 简介
 
 本项目会缓慢更新，本项目下的结题文件都是 JavaScript 编写，并补上了一些问题所需的结构。你可以在本地使用 nodejs 运行和调试。
 ```shell
@@ -14,7 +14,7 @@ D:\leetcode>node ./"Easy Problems"/"88.Merge Sorted Array"/
 ~/leetcode$ node ./Easy\ Problems/88.Merge\ Sorted\ Array/
 [ 1, 2 ]
 ```
-#### 模块
+### 模块
 在所有问题中，会经常出现需要额外的代码来实现功能，方便我们调试比如 [链表](https://leetcode.com/tag/linked-list/) 和 [树](https://leetcode.com/tag/tree/) 之类的题目中会出现的条件。
 ```js
 /**
@@ -37,10 +37,10 @@ D:\leetcode>node ./"Easy Problems"/"88.Merge Sorted Array"/
 ```
 在本项目中会实现一些模块，来方便我刷题。
 
-##### 链表
+#### 链表
 暂时空缺，待完成
 
-##### 树
+#### 树
 在所有问题中，有 71（2017/8/31） 题是关于 [树](https://leetcode.com/tag/tree/) 的问题，故将所有树中所需的操作打包成 [TreeFunction](https://github.com/maohhgg/leetcode/blob/master/Tree/TreeFunction.js)。
 
 用法：
@@ -48,8 +48,22 @@ D:\leetcode>node ./"Easy Problems"/"88.Merge Sorted Array"/
 // 引入 模块
 var Tree = require("../../Tree/TreeFunction.js")
 
-// 创建二叉树
-var p = Tree.createBinaryTree([1,2,4,0,0,0,3,0,0]); 
+// 创建二叉树 
+//     1
+//    / \
+//   2   3
+//  /  
+// 4  
+var p = Tree.createBinaryTree([1,2,4,0,0,0,3,0,0]); // 不推荐 已有优化后的
+var p = Tree.createBiTree([1,2,3,4])
+
+//     1
+//    / \
+//   2   3
+//        \
+//         4
+var p = Tree.createBinaryTree([1,2,0,0,3,0,4,0,0]); // 不推荐
+var p = Tree.createBiTree([1,2,3,null,null,4])
 
 // 先序遍历二叉树
 Tree.preOrderTraverse(p);
@@ -70,7 +84,7 @@ console.log(TreeFunction.nodeNum(p));
 console.log(TreeFunction.leafNum(p));
 ```
 
-### TODO
+## TODO
 
 - [ ] 1.所有的Easy Problems
 
@@ -79,9 +93,10 @@ console.log(TreeFunction.leafNum(p));
 - [ ] 3.所有的Hard Problems
 
 - [ ] 4.完成和优化所需模块
-    - [ ] 1.优化二叉树的创建，将参数`[6,2,1,0,0,4,3,0,0,0,8,0,0]`变成`[6,2,8,1,4,null,null,null,null,3]`
+    - [x] 1.优化二叉树的创建，将参数`[6,2,1,0,0,4,3,0,0,0,8,0,0]`变成`[6,2,8,1,4,null,null,null,null,3]`
+    - [ ] 2.链表模块
 
-### Easy Problems
+## Easy Problems
 
 | #  | title | source code |
 |----------|------------|-------------|
@@ -105,6 +120,6 @@ console.log(TreeFunction.leafNum(p));
 | 100 |[Same Tree](https://leetcode.com/problems/same-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/100.Same%20Tree/index.js)|
 | 101 |[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/101.Symmetric%20Tree/index.js)|
 | 104 |[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/104.Maximum%20Depth%20of%20Binary%20Tree/index.js)|
-### Medium Problems
+## Medium Problems
 
-### Hard Problems
+## Hard Problems
