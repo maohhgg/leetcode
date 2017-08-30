@@ -1,3 +1,4 @@
+const TreeFunction = require("../../Tree/TreeFunction.js")
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -56,31 +57,8 @@ var rightTree = function(root,queue){
 
 
 
-function TreeNode(val) {
-    this.val = val;
-    this.left = this.right = null;
-}
 
-var createBinaryTree = function(nums){
-    var a = nums.shift();
-    if(a == 0){
-        var p = null;
-    } else {
-        var p = new TreeNode();
-        p.val = a;
-        p.left = createBinaryTree(nums);
-        p.right = createBinaryTree(nums);
-    }
-    return p;
-}
-var preOrderTraverse = function(root)  {  
-    if(root) {  
-        console.log(root.val)
-        preOrderTraverse(root.left);  
-        preOrderTraverse(root.right);  
-    }  
-}  
-// var p = createBinaryTree([1,2,3,0,0,4,0,0,2,4,0,0,3,0,0]);
+// var p = TreeFunction.createBinaryTree([1,2,3,0,0,4,0,0,2,4,0,0,3,0,0]);
 //  true
 //     1
 //    / \
@@ -88,7 +66,7 @@ var preOrderTraverse = function(root)  {
 //  / \ / \
 // 3  4 4  3
 
-// var p = createBinaryTree([1,2,0,3,0,0,2,0,3,0,0]);
+// var p = TreeFunction.createBinaryTree([1,2,0,3,0,0,2,0,3,0,0]);
 // false
 //     1
 //    / \
@@ -96,7 +74,7 @@ var preOrderTraverse = function(root)  {
 //    \   \
 //    3    3
 
-// var p = createBinaryTree([1,2,0,3,0,0,2,3,0,0,0]);
+// var p = TreeFunction.createBinaryTree([1,2,0,3,0,0,2,3,0,0,0]);
 // true
 //     1
 //    / \
@@ -104,20 +82,20 @@ var preOrderTraverse = function(root)  {
 //    \ /  
 //    33
 
-// var p = createBinaryTree([1,2,0,0,2,0,0]);
+// var p = TreeFunction.createBinaryTree([1,2,0,0,2,0,0]);
 // true
 //     1
 //    / \
 //   2   2
 
-// var p = createBinaryTree([1,2,0,0,0]);
+// var p = TreeFunction.createBinaryTree([1,2,0,0,0]);
 // false
 //     1
 //    / \
 //   2 
 
-var p = createBinaryTree([1,0,0]);
+var p = TreeFunction.createBinaryTree([1,0,0]);
 //  true
 //     1
-preOrderTraverse(p);
+TreeFunction.preOrderTraverse(p);
 console.log(isSymmetric(p));

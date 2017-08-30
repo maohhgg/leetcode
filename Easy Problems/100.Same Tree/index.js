@@ -1,3 +1,4 @@
+const TreeFunction = require("../../Tree/TreeFunction.js")
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -48,34 +49,16 @@ var isSameTree = function(p, q) {
 
 
 
-function TreeNode(val) {
-    this.val = val;
-    this.left = this.right = null;
-}
 
-var createBinaryTree = function(nums){
-    var a = nums.shift();
-    if(a == 0){
-        var p = null;
-    } else {
-        var p = new TreeNode();
-        p.val = a;
-        p.left = createBinaryTree(nums);
-        p.right = createBinaryTree(nums);
-    }
-    return p;
-}
-var preOrderTraverse = function(root)  {  
-    if(root) {  
-        console.log(root.val)
-        preOrderTraverse(root.left);  
-        preOrderTraverse(root.right);  
-    }  
-}  
-var p = createBinaryTree([1,2,4,0,0,0,3,0,0]);
+var p = TreeFunction.createBinaryTree([1,2,4,0,0,0,3,0,0]);
 // var q = createBinaryTree([1,2,4,0,0,0,3,0,0]);
 // var q = p;
-var q = createBinaryTree([6,2,1,0,0,4,3,0,0,0,8,0,0]);
-preOrderTraverse(p);
-preOrderTraverse(q);
+var q = TreeFunction.createBinaryTree([6,2,1,0,0,4,3,0,0,0,8,0,0]);
+// TreeFunction.preOrderTraverse(p);
+// TreeFunction.inOrderTraverse(p);
+// TreeFunction.lastOrderTraverse(p);
+// TreeFunction.preOrderTraverse(q);
+// console.log(TreeFunction.maxDepth(p));
+// console.log(TreeFunction.nodeNum(p));
+// console.log(TreeFunction.leafNum(p));
 console.log(isSameTree(p,q));
