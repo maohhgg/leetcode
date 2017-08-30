@@ -63,7 +63,7 @@ var p = Tree.createBiTree([1,2,3,4])
 //        \
 //         4
 var p = Tree.createBinaryTree([1,2,0,0,3,0,4,0,0]); // 不推荐
-var p = Tree.createBiTree([1,2,3,null,null,4])
+var p = Tree.createBiTree([1,2,3,null,null，null,4])
 
 // 先序遍历二叉树
 Tree.preOrderTraverse(p);
