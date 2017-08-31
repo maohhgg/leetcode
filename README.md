@@ -46,10 +46,10 @@ D:\leetcode>node ./"Easy Problems"/"88.Merge Sorted Array"/
 用法：
 ```js
 // 引入 模块
-var Tree = require("../../Tree/TreeFunction.js")
+const Tree = require("../../Tree/TreeFunction.js")
 
 // 创建一个 TreeNode 实例
-var p = Tree.createTreeNode(5);
+let p = Tree.createTreeNode(5);
 
 // 创建二叉树 
 //     1
@@ -57,16 +57,16 @@ var p = Tree.createTreeNode(5);
 //   2   3
 //  /  
 // 4  
-var p = Tree.createBinaryTree([1,2,4,0,0,0,3,0,0]); // 不推荐 已有优化后的
-var p = Tree.createBiTree([1,2,3,4])
+let p = Tree.createBinaryTree([1,2,4,0,0,0,3,0,0]); // 不推荐 已有优化后的
+let p = Tree.createBiTree([1,2,3,4])
 
 //     1
 //    / \
 //   2   3
 //        \
 //         4
-var p = Tree.createBinaryTree([1,2,0,0,3,0,4,0,0]); // 不推荐
-var p = Tree.createBiTree([1,2,3,null,null，null,4])
+let p = Tree.createBinaryTree([1,2,0,0,3,0,4,0,0]); // 不推荐
+let p = Tree.createBiTree([1,2,3,null,null，null,4])
 
 // 先序遍历二叉树
 Tree.preOrderTraverse(p);
@@ -78,13 +78,25 @@ Tree.inOrderTraverse(p);
 Tree.lastOrderTraverse(p);
 
 //二叉树深度
-console.log(TreeFunction.maxDepth(p));
+var dep = TreeFunction.maxDepth(p);
 
 // 二叉树结点数
-console.log(TreeFunction.nodeNum(p));
+var nodeNum = TreeFunction.nodeNum(p);
 
 // 二叉树所有叶子数
-console.log(TreeFunction.leafNum(p));
+var leafNum = TreeFunction.leafNum(p);
+
+// 打印二叉树的二维结构  
+// 如果上一层有为 null ，当前层不会给上层 null 占位， 可根据自己的需求更改
+TreeFunction.logTree(p);
+//     1
+//    / \
+//   2   3
+//        \
+//         4
+//[1]
+//[2,3]
+//[null,null,null,4]
 ```
 
 ## TODO
@@ -123,6 +135,16 @@ console.log(TreeFunction.leafNum(p));
 | 100 |[Same Tree](https://leetcode.com/problems/same-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/100.Same%20Tree/index.js)|
 | 101 |[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/101.Symmetric%20Tree/index.js)|
 | 104 |[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/104.Maximum%20Depth%20of%20Binary%20Tree/index.js)|
+| 107 |[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/107.Binary%20Tree%20Level%20Order%20Traversal%20II/index.js)|
+| 108 |[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/108.Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/index.js)|
+| 112 |[Path Sum](https://leetcode.com/problems/path-sum/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/112.Path%20Sum/index.js)|
+| 257 |[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/257.Binary%20Tree%20Paths/index.js)|
+| 617 |[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/617.Merge%20Two%20Binary%20Trees/index.js)|
+| 637 |[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/637.Average%20of%20Levels%20in%20Binary%20Tree/index.js)|
+
 ## Medium Problems
 
-## Hard Problems
+| #  | title | source code |
+|----------|------------|-------------|
+| 102 |[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Medium%20Problems/102.Binary%20Tree%20Level%20Order%20Traversal/index.js)|
+| 103 |[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Medium%20Problems/103.Binary%20Tree%20Zigzag%20Level%20Order%20Traversal/index.js)|

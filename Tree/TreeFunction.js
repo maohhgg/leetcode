@@ -1,4 +1,4 @@
-var TreeNode = require("./TreeNode.js");
+const TreeNode = require("./TreeNode.js");
 
 // 优化 完成
 this.createBinaryTree = function(nums){
@@ -76,4 +76,36 @@ this.leafNum = function(root) {
     } else {  
         return (this.leafNum(root.left) + this.leafNum(root.right)) ;  
     }  
-}  
+}
+
+// XXX 优化更好的显示方式
+this.logTree = function(root){
+    var arr = this._zigzagLevelOrder(root);
+    for (var i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+    }
+}
+
+this._zigzagLevelOrder = function(root){
+    if(!root) return [];
+    var queue = [],number = [];
+    queue.push(root);
+
+    while(queue.length){
+        var res = [],tmp = [];
+        for (var i = 0; i < queue.length; i++) {
+            var element = queue[i];
+            if(element === null){
+                res.push(element);
+                continue;
+            }
+            res.push(element.val);
+            tmp.push(element.left);
+            tmp.push(element.right);
+        }
+        queue = tmp;
+        number.push(res);
+    }
+    number.pop();
+    return number;
+}
