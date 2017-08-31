@@ -1,4 +1,4 @@
-const TreeFunction = require("../../Tree/TreeFunction.js");
+const tree = require("../../Common/Tree/TreeFunction.js")
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -20,7 +20,7 @@ var mergeTrees = function (t1, t2) {
     return t1;
 };
 
-var p = TreeFunction.createBiTree([1, 3, 2, 5]);
-var q = TreeFunction.createBiTree([2, 1, 3, null, 4, null, 7]);
+var p = tree.createBiTree([1, 3, 2, 5]);
+var q = tree.createBiTree([2, 1, 3, null, 4, null, 7]);
 
-TreeFunction.logTree(mergeTrees(p,q));
+tree.logTree(mergeTrees(p,q));

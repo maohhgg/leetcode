@@ -1,4 +1,4 @@
-const TreeFunction = require("../../Tree/TreeFunction.js")
+const tree = require("../../Common/Tree/TreeFunction.js")
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -50,10 +50,10 @@ var isSameTree = function(p, q) {
 
 
 
-var p = TreeFunction.createBiTree([1,2,3,4]);
-var q1 = TreeFunction.createBiTree([1,2,3,4]); // true
+var p = tree.createBiTree([1,2,3,4]);
+var q1 = tree.createBiTree([1,2,3,4]); // true
 var q2 = p; // true
-var q3 = TreeFunction.createBiTree([6,2,8,1,4,null,null,null,null,3]); // false
+var q3 = tree.createBiTree([6,2,8,1,4,null,null,null,null,3]); // false
 console.log("p === q1 "+isSameTree(p,q1));
 console.log("p === q2 "+isSameTree(p,q2));
 console.log("p === q3 "+isSameTree(p,q3));

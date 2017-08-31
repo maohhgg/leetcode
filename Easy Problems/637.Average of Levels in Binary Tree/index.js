@@ -1,4 +1,4 @@
-const TreeFunction = require("../../Tree/TreeFunction.js");
+const tree = require("../../Common/Tree/TreeFunction.js")
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -52,9 +52,9 @@ var levelOrder = function(root) {
     return number;
 };
 
-var p = TreeFunction.createBiTree([1, 3, 2, 5]);
-var p1 = TreeFunction.createBiTree([3, 9, 20, null, null, 15, 7]);
-var q = TreeFunction.createBiTree([2, 1, 3, null, 4, null, 7]);
+var p = tree.createBiTree([1, 3, 2, 5]);
+var p1 = tree.createBiTree([3, 9, 20, null, null, 15, 7]);
+var q = tree.createBiTree([2, 1, 3, null, 4, null, 7]);
 
 console.log(averageOfLevels(p));
 console.log(averageOfLevels(p1));

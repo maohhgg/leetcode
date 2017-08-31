@@ -1,4 +1,4 @@
-const TreeFunction = require("../../Tree/TreeFunction.js")
+const tree = require("../../Common/Tree/TreeFunction.js")
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -58,7 +58,7 @@ var rightTree = function(root,queue){
 
 
 
-var p1 = TreeFunction.createBiTree([1,2,2,3,4,4,3]);
+var p1 = tree.createBiTree([1,2,2,3,4,4,3]);
 console.log("BiTree p1 = "+isSymmetric(p1));
 //  true
 //     1
@@ -67,7 +67,7 @@ console.log("BiTree p1 = "+isSymmetric(p1));
 //  / \ / \
 // 3  4 4  3
 
-var p2 = TreeFunction.createBiTree([1,2,2,null,3,null,3]);
+var p2 = tree.createBiTree([1,2,2,null,3,null,3]);
 console.log("BiTree p2 = "+isSymmetric(p2));
 // false
 //     1
@@ -76,7 +76,7 @@ console.log("BiTree p2 = "+isSymmetric(p2));
 //    \   \
 //    3    3
 
-var p3 = TreeFunction.createBiTree([1,2,2,null,3,3]);
+var p3 = tree.createBiTree([1,2,2,null,3,3]);
 console.log("BiTree p3 = "+isSymmetric(p3));
 // true
 //     1
@@ -85,21 +85,21 @@ console.log("BiTree p3 = "+isSymmetric(p3));
 //    \ /  
 //    33
 
-var p4 = TreeFunction.createBiTree([1,2,2]);
+var p4 = tree.createBiTree([1,2,2]);
 console.log("BiTree p4 = "+isSymmetric(p4));
 // true
 //     1
 //    / \
 //   2   2
 
-var p5 = TreeFunction.createBiTree([1,2]);
+var p5 = tree.createBiTree([1,2]);
 console.log("BiTree p5 = "+isSymmetric(p5));
 // false
 //     1
 //    / \
 //   2 
 
-var p = TreeFunction.createBinaryTree([1,0,0]);
+var p = tree.createBinaryTree([1,0,0]);
 console.log("BiTree p = "+isSymmetric(p));
 //  true
 //     1

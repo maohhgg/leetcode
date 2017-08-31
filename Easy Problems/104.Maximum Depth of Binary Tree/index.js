@@ -1,4 +1,4 @@
-const TreeFunction = require("../../Tree/TreeFunction.js")
+const tree = require("../../Common/Tree/TreeFunction.js")
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -20,6 +20,6 @@ var maxDepth = function(root) {
 };
 
 
-var p = TreeFunction.createBiTree([6,2,8,1,4,null,null,null,null,3]);
+var p = tree.createBiTree([6,2,8,1,4,null,null,null,null,3]);
 // var p = TreeFunction.createBiTree([3,9,20,null,null,15,7]);
 console.log(maxDepth(p));

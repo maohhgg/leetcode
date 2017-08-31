@@ -1,4 +1,4 @@
-const TreeFunction = require("../../Tree/TreeFunction.js");
+const tree = require("../../Common/Tree/TreeFunction.js")
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -28,7 +28,7 @@ var sortedArrayToBST = function (nums) {
 };
 
 var TreeNode = function(num){
-   return new TreeFunction.createTreeNode(num);
+   return new tree.createTreeNode(num);
 }
 var q = sortedArrayToBST([2,3,4,6,7,13,15,17,18]);
-TreeFunction.inOrderTraverse(q);
+tree.inOrderTraverse(q);
