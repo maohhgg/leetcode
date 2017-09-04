@@ -44,15 +44,29 @@ D:\leetcode>node ./"Easy Problems"/"88.Merge Sorted Array"/
 const List = require("../../Common/LinkList/LinkListFunction.js")
 
 // 创建一个 ListNode 实例
-let l = List.createListNode(0);
+let l = List.createLinkNode(0);
 
 // 创建一个单向链表
 let list = List.createList([0,1,2,3]);
 // 0 -> 1 -> 2 -> 3
 
+// 创建一个链表环
+let list = List.createCycleList([0,1,2,3]);
+// 0 -> 1 -> 2 -> 3
+// ↑             |
+// └─────────────┘
+
 // 打印单向链表
 List.printList(list);
 // 输出： 0 -> 1 -> 2 -> 3
+
+// 打印链表环
+List.printCycleList(list);
+// 0 -> 1 -> 2 -> 3
+// ↑             |
+// └─────────────┘
+// 输出一遍所有的
+// 0 -> 1 -> 2 -> 3 -> ...
 
 // 删除第 n 个节点
 list = List.removeNthNode(list,1)
@@ -129,7 +143,7 @@ TreeFunction.logTree(p);
 
 - [ ] 4.完成和优化所需模块
     - [x] 1.优化二叉树的创建，将参数`[6,2,1,0,0,4,3,0,0,0,8,0,0]`变成`[6,2,8,1,4,null,null,null,null,3]`
-    - [ ] 2.链表模块
+    - [x] 2.链表模块
 
 ## Easy Problems
 
@@ -151,7 +165,9 @@ TreeFunction.logTree(p);
 | 58 |[Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/58.Length%20of%20Last%20Word/index.js)|
 | 66 |[Plus One](https://leetcode.com/problems/plus-one/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/66.Plus%20One/index.js)|
 | 67 |[Add Binary](https://leetcode.com/problems/add-binary/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/67.Add%20Binary/index.js)|
+| 69 |[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/69.Sqrt(x)/index.js)|
 | 70 |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/70.Climbing%20Stairs/index.js)|
+| 83 |[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/83.Remove%20Duplicates%20from%20Sorted%20List/index.js)|
 | 88 |[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/88.Merge%20Sorted%20Array/index.js)|
 | 100 |[Same Tree](https://leetcode.com/problems/same-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/100.Same%20Tree/index.js)|
 | 101 |[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/101.Symmetric%20Tree/index.js)|
@@ -159,10 +175,14 @@ TreeFunction.logTree(p);
 | 107 |[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/107.Binary%20Tree%20Level%20Order%20Traversal%20II/index.js)|
 | 108 |[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/108.Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/index.js)|
 | 112 |[Path Sum](https://leetcode.com/problems/path-sum/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/112.Path%20Sum/index.js)|
+| 141 |[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/141.Linked%20List%20Cycle/index.js)|
 | 151 |[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/151.Reverse%20Words%20in%20a%20String/index.js)|
 | 257 |[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/257.Binary%20Tree%20Paths/index.js)|
+| 367 |[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/367.Valid%20Perfect%20Square/index.js)|
 | 617 |[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/617.Merge%20Two%20Binary%20Trees/index.js)|
+| 633 |[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/633.Sum%20of%20Square%20Numbers/index.js)|
 | 637 |[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Easy%20Problems/637.Average%20of%20Levels%20in%20Binary%20Tree/index.js)|
+
 
 ## Medium Problems
 
@@ -172,8 +192,12 @@ TreeFunction.logTree(p);
 | 19 |[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Medium%20Problems/19.Remove%20Nth%20Node%20From%20End%20of%20List/index.js)|
 | 24 |[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Medium%20Problems/24.Swap%20Nodes%20in%20Pairs/index.js)|
 | 61 |[Rotate List](https://leetcode.com/problems/rotate-list/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Medium%20Problems/61.Rotate%20List/index.js)|
+| 82 |[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Medium%20Problems/82.Remove%20Duplicates%20from%20Sorted%20List%20II/index.js)|
+| 86 |[Partition List](https://leetcode.com/problems/partition-list/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Medium%20Problems/86.Partition%20List/index.js)|
 | 102 |[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Medium%20Problems/102.Binary%20Tree%20Level%20Order%20Traversal/index.js)|
 | 103 |[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Medium%20Problems/103.Binary%20Tree%20Zigzag%20Level%20Order%20Traversal/index.js)|
+| 109 |[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Medium%20Problems/109.Convert%20Sorted%20List%20to%20Binary%20Search%20Tree/index.js)|
+| 142 |[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|[JavaScript](https://github.com/maohhgg/leetcode/blob/master/Medium%20Problems/142.Linked%20List%20Cycle%20II/index.js)|
 
 
 ## Hard Problems
