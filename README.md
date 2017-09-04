@@ -112,17 +112,17 @@ Tree.inOrderTraverse(p);
 Tree.lastOrderTraverse(p);
 
 //二叉树深度
-var dep = TreeFunction.maxDepth(p);
+var dep = Tree.maxDepth(p);
 
 // 二叉树结点数
-var nodeNum = TreeFunction.nodeNum(p);
+var nodeNum = Tree.nodeNum(p);
 
 // 二叉树所有叶子数
-var leafNum = TreeFunction.leafNum(p);
+var leafNum = Tree.leafNum(p);
 
 // 打印二叉树的二维结构  
 // 如果上一层有为 null ，当前层不会给上层 null 占位， 可根据自己的需求更改
-TreeFunction.logTree(p);
+Tree.logTree(p);
 //     1
 //    / \
 //   2   3
