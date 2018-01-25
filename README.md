@@ -14,6 +14,9 @@ D:\leetcode>node ./"Easy Problems"/"88.Merge Sorted Array"/
 ~/leetcode$ node ./Easy\ Problems/88.Merge\ Sorted\ Array/
 [ 1, 2 ]
 ```
+
+PS： [刷题列表](ProblemsList.md)
+
 ### 模块
 在所有问题中，会经常出现需要额外的代码来实现功能，方便我们调试比如 [链表](https://leetcode.com/tag/linked-list/) 和 [树](https://leetcode.com/tag/tree/) 之类的题目中会出现的条件。
 ```js
