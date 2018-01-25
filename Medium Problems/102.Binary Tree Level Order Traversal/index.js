@@ -1,4 +1,4 @@
-const TreeFunction = require("../../Tree/TreeFunction.js");
+const TreeFunction = require("../../Common/Tree/TreeFunction.js");
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {

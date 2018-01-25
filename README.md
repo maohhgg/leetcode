@@ -106,13 +106,13 @@ let p = Tree.createBinaryTree([1,2,0,0,3,0,4,0,0]); // 不推荐
 let p = Tree.createBiTree([1,2,3,null,null，null,4])
 
 // 先序遍历二叉树
-Tree.preOrderTraverse(p);
+Tree.Order(p,'pre');
 
 // 中序遍历二叉树
-Tree.inOrderTraverse(p);
+Tree.Order(p,'in');
 
 // 后序遍历二叉树
-Tree.lastOrderTraverse(p);
+Tree.Order(p,'last');
 
 //二叉树深度
 var dep = Tree.maxDepth(p);

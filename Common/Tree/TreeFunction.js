@@ -1,5 +1,5 @@
 const TreeNode = require("./TreeNode.js");
-
+this.arr = [];
 // 优化 完成
 this.createBinaryTree = function(nums){
     var a = nums.shift();
@@ -14,7 +14,7 @@ this.createBinaryTree = function(nums){
     return p;
 }
 this.createTreeNode = function(num){
-    var p = new TreeNode.TreeNode();
+    var p = new TreeNode.TreeNode(num);
     p.val = num;
     return p;
 }
@@ -32,9 +32,26 @@ this._createBiTree = function(nums,n){
     }
     return p;
 }
+this.Order = function (root,method) {
+    this.arr = [];
+    switch (method) {
+        case 'pre':
+            this.preOrderTraverse(root);
+            break;
+        case 'in':
+            this.inOrderTraverse(root);
+            break;
+        case 'last':
+            this.lastOrderTraverse(root);
+            break;
+        default:
+            break;
+    }
+    console.log(this.arr);
+}
 this.preOrderTraverse = function(root) {  
     if(root) {  
-        console.log(root.val)
+        this.arr.push(root.val);
         this.preOrderTraverse(root.left);  
         this.preOrderTraverse(root.right);  
     }  
@@ -42,15 +59,15 @@ this.preOrderTraverse = function(root) {
 this.inOrderTraverse = function(root) {
     if(root) {  
         this.inOrderTraverse(root.left);  
-        console.log(root.val)
+        this.arr.push(root.val);
         this.inOrderTraverse(root.right);  
     }  
 }
 this.lastOrderTraverse = function(root) {  
     if(root) {  
         this.lastOrderTraverse(root.left);  
-        console.log(root.val)
         this.lastOrderTraverse(root.right);  
+        this.arr.push(root.val);
     }  
 } 
 this.maxDepth = function(root) {
