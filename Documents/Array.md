@@ -1,9 +1,11 @@
 # Array 
-You have solved  **9** / **124** problems.
+You have solved  **11** / **124** problems.
 
 | ID | Title | Difficulty | Source code |
 |:--:|:-----:|:----------:|:------------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/)| Easy | [JavaScript](../Problems/1.two-sum/JavaScript.js) |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| Medium | [JavaScript](../Problems/11.container-with-most-water/JavaScript.js) |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/)| Medium | [JavaScript](../Problems/15.3Sum/JavaScript.js) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Easy | [JavaScript](../Problems/26.remove-duplicates-from-sorted-array/JavaScript.js) |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/)| Easy | [JavaScript](../Problems/27.remove-element/JavaScript.js) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)| Easy | [JavaScript](../Problems/35.search-insert-position/JavaScript.js) |
