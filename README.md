@@ -149,7 +149,7 @@ Tree.logTree(p);
 -  [数组 (Array)](./Documents/Array.md)
 -  [字符串 (String)](./Documents/String.md)
 -  [数学 (Math)](./Documents/Math.md)
--  [链表 (Linked List)](./Documents/Linked\ List.md)
+-  [链表 (Linked List)](./Documents/Linked%20List.md)
 -  [树 (Tree)](./Documents/Tree.md)
 
 ## TODO
