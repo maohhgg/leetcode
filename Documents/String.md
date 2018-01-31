@@ -1,4 +1,7 @@
-| id | title | Difficulty | source code |
+# String 
+You have solved  **11** / **94** problems.
+
+| ID | Title | Difficulty | Source code |
 |:--:|:-----:|:----------:|:------------|
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)| Medium | [JavaScript](../zigzag-conversion/JavaScript.js) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)| Medium | [JavaScript](../string-to-integer-(atoi)/JavaScript.js) |

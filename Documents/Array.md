@@ -1,4 +1,7 @@
-| id | title | Difficulty | source code |
+# Array 
+You have solved  **9** / **124** problems.
+
+| ID | Title | Difficulty | Source code |
 |:--:|:-----:|:----------:|:------------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/)| Easy | [JavaScript](../two-sum/JavaScript.js) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Easy | [JavaScript](../remove-duplicates-from-sorted-array/JavaScript.js) |

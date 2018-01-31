@@ -1,4 +1,7 @@
-| id | title | Difficulty | source code |
+# Math 
+You have solved  **11** / **82** problems.
+
+| ID | Title | Difficulty | Source code |
 |:--:|:-----:|:----------:|:------------|
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| Medium | [JavaScript](../add-two-numbers/JavaScript.js) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)| Easy | [JavaScript](../reverse-integer/JavaScript.js) |

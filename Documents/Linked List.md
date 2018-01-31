@@ -1,4 +1,7 @@
-| id | title | Difficulty | source code |
+# Linked List 
+You have solved  **13** / **28** problems.
+
+| ID | Title | Difficulty | Source code |
 |:--:|:-----:|:----------:|:------------|
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| Medium | [JavaScript](../add-two-numbers/JavaScript.js) |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| Medium | [JavaScript](../remove-nth-node-from-end-of-list/JavaScript.js) |

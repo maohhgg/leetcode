@@ -1,4 +1,7 @@
-| id | title | Difficulty | Tag | source code |
+# All 
+You have solved  **50** / **666** problems.
+
+| ID | Title | Difficulty | Tag | Source code |
 |:--:|:-----:|:----------:|:---:|:------------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/)| Easy | [Array](https://leetcode.com/tag/array),[Hash Table](https://leetcode.com/tag/hash-table) | [JavaScript](../two-sum/JavaScript.js) |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| Medium | [Math](https://leetcode.com/tag/math),[Linked List](https://leetcode.com/tag/linked-list) | [JavaScript](../add-two-numbers/JavaScript.js) |
