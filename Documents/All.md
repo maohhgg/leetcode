@@ -1,5 +1,5 @@
 # All 
-You have solved  **56** / **666** problems.
+You have solved  **62** / **666** problems.
 
 | ID | Title | Difficulty | Tag | Source code |
 |:--:|:-----:|:----------:|:---:|:------------|
@@ -36,6 +36,7 @@ You have solved  **56** / **666** problems.
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/)| Easy | [String](https://leetcode.com/tag/string),[Math](https://leetcode.com/tag/math) | [JavaScript](../Problems/67.add-binary/JavaScript.js) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)| Easy | [Math](https://leetcode.com/tag/math),[Binary Search](https://leetcode.com/tag/binary-search) | [JavaScript](../Problems/69.sqrt(x)/JavaScript.js) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| Easy | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming) | [JavaScript](../Problems/70.climbing-stairs/JavaScript.js) |
+| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)| Medium | [Array](https://leetcode.com/tag/array) | [JavaScript](../Problems/73.set-matrix-zeroes/JavaScript.js) |
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| Medium | [Linked List](https://leetcode.com/tag/linked-list) | [JavaScript](../Problems/82.remove-duplicates-from-sorted-list-ii/JavaScript.js) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| Easy | [Linked List](https://leetcode.com/tag/linked-list) | [JavaScript](../Problems/83.remove-duplicates-from-sorted-list/JavaScript.js) |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/)| Medium | [Two Pointers](https://leetcode.com/tag/two-pointers),[Linked List](https://leetcode.com/tag/linked-list) | [JavaScript](../Problems/86.partition-list/JavaScript.js) |
@@ -51,10 +52,15 @@ You have solved  **56** / **666** problems.
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| Easy | [Tree](https://leetcode.com/tag/tree),[Depth-first Search](https://leetcode.com/tag/depth-first-search) | [JavaScript](../Problems/108.convert-sorted-array-to-binary-search-tree/JavaScript.js) |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Medium | [Depth-first Search](https://leetcode.com/tag/depth-first-search),[Linked List](https://leetcode.com/tag/linked-list) | [JavaScript](../Problems/109.convert-sorted-list-to-binary-search-tree/JavaScript.js) |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/)| Easy | [Tree](https://leetcode.com/tag/tree),[Depth-first Search](https://leetcode.com/tag/depth-first-search) | [JavaScript](../Problems/112.path-sum/JavaScript.js) |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)| Easy | [Array](https://leetcode.com/tag/array) | [JavaScript](../Problems/118.pascals-triangle/JavaScript.js) |
+| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)| Easy | [Array](https://leetcode.com/tag/array) | [JavaScript](../Problems/119.pascals-triangle-ii/JavaScript.js) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| Easy | [Two Pointers](https://leetcode.com/tag/two-pointers),[Linked List](https://leetcode.com/tag/linked-list) | [JavaScript](../Problems/141.linked-list-cycle/JavaScript.js) |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| Medium | [Two Pointers](https://leetcode.com/tag/two-pointers),[Linked List](https://leetcode.com/tag/linked-list) | [JavaScript](../Problems/142.linked-list-cycle-ii/JavaScript.js) |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| Medium | [String](https://leetcode.com/tag/string) | [JavaScript](../Problems/151.reverse-words-in-a-string/JavaScript.js) |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)| Easy | [Array](https://leetcode.com/tag/array) | [JavaScript](../Problems/189.rotate-array/JavaScript.js) |
+| 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/)| Medium | [Array](https://leetcode.com/tag/array) | [JavaScript](../Problems/228.summary-ranges/JavaScript.js) |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)| Easy | [Tree](https://leetcode.com/tag/tree),[Depth-first Search](https://leetcode.com/tag/depth-first-search) | [JavaScript](../Problems/257.binary-tree-paths/JavaScript.js) |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)| Easy | [Array](https://leetcode.com/tag/array),[Two Pointers](https://leetcode.com/tag/two-pointers) | [JavaScript](../Problems/283.move-zeroes/JavaScript.js) |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)| Easy | [Math](https://leetcode.com/tag/math),[Binary Search](https://leetcode.com/tag/binary-search) | [JavaScript](../Problems/367.valid-perfect-square/JavaScript.js) |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)| Easy | [Tree](https://leetcode.com/tag/tree) | [JavaScript](../Problems/617.merge-two-binary-trees/JavaScript.js) |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)| Easy | [Math](https://leetcode.com/tag/math) | [JavaScript](../Problems/633.sum-of-square-numbers/JavaScript.js) |
