@@ -1,5 +1,5 @@
 # All 
-You have solved  **50** / **666** problems.
+You have solved  **56** / **666** problems.
 
 | ID | Title | Difficulty | Tag | Source code |
 |:--:|:-----:|:----------:|:---:|:------------|
@@ -9,9 +9,11 @@ You have solved  **50** / **666** problems.
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)| Easy | [Math](https://leetcode.com/tag/math) | [JavaScript](../Problems/7.reverse-integer/JavaScript.js) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)| Medium | [String](https://leetcode.com/tag/string),[Math](https://leetcode.com/tag/math) | [JavaScript](../Problems/8.string-to-integer-(atoi)/JavaScript.js) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)| Easy | [Math](https://leetcode.com/tag/math) | [JavaScript](../Problems/9.palindrome-number/JavaScript.js) |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| Medium | [Array](https://leetcode.com/tag/array),[Two Pointers](https://leetcode.com/tag/two-pointers) | [JavaScript](../Problems/11.container-with-most-water/JavaScript.js) |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)| Medium | [String](https://leetcode.com/tag/string),[Math](https://leetcode.com/tag/math) | [JavaScript](../Problems/12.integer-to-roman/JavaScript.js) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)| Easy | [String](https://leetcode.com/tag/string),[Math](https://leetcode.com/tag/math) | [JavaScript](../Problems/13.roman-to-integer/JavaScript.js) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| Easy | [String](https://leetcode.com/tag/string) | [JavaScript](../Problems/14.longest-common-prefix/JavaScript.js) |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/)| Medium | [Array](https://leetcode.com/tag/array),[Two Pointers](https://leetcode.com/tag/two-pointers) | [JavaScript](../Problems/15.3Sum/JavaScript.js) |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| Medium | [Two Pointers](https://leetcode.com/tag/two-pointers),[Linked List](https://leetcode.com/tag/linked-list) | [JavaScript](../Problems/19.remove-nth-node-from-end-of-list/JavaScript.js) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| Easy | [String](https://leetcode.com/tag/string),[Stack](https://leetcode.com/tag/stack) | [JavaScript](../Problems/20.valid-parentheses/JavaScript.js) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| Easy | [Linked List](https://leetcode.com/tag/linked-list) | [JavaScript](../Problems/21.merge-two-sorted-lists/JavaScript.js) |
@@ -24,7 +26,11 @@ You have solved  **50** / **666** problems.
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)| Easy | [Array](https://leetcode.com/tag/array),[Binary Search](https://leetcode.com/tag/binary-search) | [JavaScript](../Problems/35.search-insert-position/JavaScript.js) |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/)| Easy | [String](https://leetcode.com/tag/string) | [JavaScript](../Problems/38.count-and-say/JavaScript.js) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| Easy | [Array](https://leetcode.com/tag/array),[Dynamic Programming](https://leetcode.com/tag/dynamic-programming),[Divide and Conquer](https://leetcode.com/tag/divide-and-conquer) | [JavaScript](../Problems/53.maximum-subarray/JavaScript.js) |
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)| Medium | [Array](https://leetcode.com/tag/array) | [JavaScript](../Problems/54.spiral-matrix/JavaScript.js) |
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)| Medium | [Array](https://leetcode.com/tag/array),[Sort](https://leetcode.com/tag/sort) | [JavaScript](../Problems/56.merge-intervals/JavaScript.js) |
+| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/)| Hard | [Array](https://leetcode.com/tag/array),[Sort](https://leetcode.com/tag/sort) | [JavaScript](../Problems/57.insert-interval/JavaScript.js) |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)| Easy | [String](https://leetcode.com/tag/string) | [JavaScript](../Problems/58.length-of-last-word/JavaScript.js) |
+| 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)| Medium | [Array](https://leetcode.com/tag/array) | [JavaScript](../Problems/59.spiral-matrix-ii/JavaScript.js) |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/)| Medium | [Two Pointers](https://leetcode.com/tag/two-pointers),[Linked List](https://leetcode.com/tag/linked-list) | [JavaScript](../Problems/61.rotate-list/JavaScript.js) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/)| Easy | [Array](https://leetcode.com/tag/array),[Math](https://leetcode.com/tag/math) | [JavaScript](../Problems/66.plus-one/JavaScript.js) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/)| Easy | [String](https://leetcode.com/tag/string),[Math](https://leetcode.com/tag/math) | [JavaScript](../Problems/67.add-binary/JavaScript.js) |
