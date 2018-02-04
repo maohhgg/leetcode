@@ -44,6 +44,24 @@ PS： [刷题列表](ProblemsList.md)
 ```
 在本项目中会实现一些模块，来方便我刷题。
 
+#### 数组（时差 Intervals）
+在数组分类下的 56.[Merge Intervals](https://leetcode.com/problems/merge-intervals/) 和 57.[Insert Interval](https://leetcode.com/problems/merge-intervals/) 需要一个 **Interval** 的对象，这里封装成对象
+```js
+// 引入 模块
+const it = require("../../Common/Array/IntervalFunction.js");
+
+// 创建一个Collection
+let collection = it.creatCollection([[1,3],[2,6],[8,10],[15,18]])
+/*[{ Interval: { start: 1, end: 3 }},
+   { Interval: { start: 2, end: 6 }},
+   { Interval: { start: 8, end: 10 }},
+   { Interval: { start: 15, end: 18 }}]*/
+
+// 转化成数组
+let array = it.toArray(collection)
+// [[1,3],[2,6],[8,10],[15,18]]
+```
+
 #### 链表
 链表属于简单的数据结构，所以他的方法较少，在 LeetCode 中也只有 21 道题目关于[链表](https://leetcode.com/tag/linked-list/)。[LinkListFunction](https://github.com/maohhgg/leetcode/blob/master/Common/LinkList/LinkListFunction.js)
 ```js
