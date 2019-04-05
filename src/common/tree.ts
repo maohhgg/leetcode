@@ -118,7 +118,7 @@ class Tree {
             console.log(dep);
             res = []; tmp = [];
 
-            for (var i = 0; i < queue.length; i++) {
+            for (let i = 0; i < queue.length; i++) {
                 let element: node = queue[i];
                 if (element === null) {
                     res.push(null);
