@@ -15,55 +15,55 @@ class ListNode implements node {
 class LinkList {
     static createNode = (num: number): node => {
         return new ListNode(num);
-    }
+    };
 
     static createList = (nums: number[]): node => {
         if (nums.length == 0) return null;
 
-        let p: node = LinkList.createNode(nums.shift())
+        let p: node = LinkList.createNode(nums.shift());
         p.next = LinkList.createList(nums);
 
         return p;
-    }
+    };
 
     static createCycleList = (nums: number[]): node => {
-        let len: number = nums.length - 1
-        let p: node = LinkList.createList(nums)
-        let l: node = p
+        let len: number = nums.length - 1;
+        let p: node = LinkList.createList(nums);
+        let l: node = p;
 
         for (var i = 0; i < len; i++) {
             p = p.next
         }
 
-        p.next = l
+        p.next = l;
         return l
-    }
+    };
 
-    static printList = (head: node): string => {
-        let s: string = ''
+    static printList = (head: node) => {
+        let s: string = '';
         while (head) {
-            s += (head.val + ' -> ')
+            s += (head.val + ' -> ');
             head = head.next
         }
-        return s.substr(0, s.length - 4)
-    }
+        console.log(s.substr(0, s.length - 4))
+    };
 
-    static printCycleList = (head: node): string => {
-        let s: string = ''
+    static printCycleList = (head: node) => {
+        let s: string = '';
         let p = head;
         while (p) {
             s += (p.val + " -> ");
             if (p.next === head) break;
             p = p.next;
         }
-        return s + "..."
-    }
+        console.log(s + "...")
+    };
 
     static removeNthNode = (head: node, n: number): node => {
         if (!head) return null;
         if (n == 0) return head.next;
 
-        var i = 1,
+        let i = 1,
             list = head,
             next = list.next;
         while (next) {
@@ -80,5 +80,5 @@ class LinkList {
     }
 }
 
-export { LinkList, node }
+export { LinkList, ListNode, node }
 

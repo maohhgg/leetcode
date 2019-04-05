@@ -10,7 +10,7 @@ class TreeNode implements node {
     right: node;
 
     constructor(value: number) {
-        this.val = value
+        this.val = value;
         this.left = this.right = null
     }
 }
@@ -21,11 +21,11 @@ class Tree {
 
     static createNode = (num: number): node => {
         return new TreeNode(num);
-    }
+    };
 
     static createBiTree = (nums: number[]): node => {
         return Tree._createBiTree(nums, 0);
-    }
+    };
 
     static _createBiTree = (nums: number[], depth: number): node => {
         let p: node = null;
@@ -37,7 +37,7 @@ class Tree {
         }
 
         return p;
-    }
+    };
 
     static traverse = (root: node, orderBy: string = 'pre') => {
         Tree.result = [];
@@ -55,7 +55,7 @@ class Tree {
                 break;
         }
         return Tree.result;
-    }
+    };
 
     static preOrderTraverse = (root: node) => {
         if (root) {
@@ -63,21 +63,21 @@ class Tree {
             Tree.preOrderTraverse(root.left);
             Tree.preOrderTraverse(root.right);
         }
-    }
+    };
     static inOrderTraverse = (root: node) => {
         if (root) {
             Tree.inOrderTraverse(root.left);
             Tree.result.push(root.val);
             Tree.inOrderTraverse(root.right);
         }
-    }
+    };
     static lastOrderTraverse = (root: node) => {
         if (root) {
             Tree.lastOrderTraverse(root.left);
             Tree.lastOrderTraverse(root.right);
             Tree.result.push(root.val);
         }
-    }
+    };
 
     static countDepth = (root: node): number => {
         if (root === null) return 0;
@@ -91,32 +91,32 @@ class Tree {
 
     static countLeaf = (root: node): number => {
         if (root == null) return 0;
-        if ((root.left == null) && (root.right == null)) return 1
+        if ((root.left == null) && (root.right == null)) return 1;
         return Tree.countLeaf(root.left) + Tree.countLeaf(root.right)
     };
 
 
     static logTree = (root: node) => {
-        let treeArray: Array<number[]> = Tree._zigzagLevelTraverse(root)
+        let treeArray: Array<number[]> = Tree._zigzagLevelTraverse(root);
         Tree.depth = Tree.countDepth(root);
         treeArray.forEach(array => console.log(array))
-    }
+    };
 
 
     static _zigzagLevelTraverse = (root: node): Array<number[]> => {
         if (!root) return [];
         let dep = Tree.countDepth(root);
-        let queue: Array<node> = []
-        let tmp: Array<node> = []
+        let queue: Array<node> = [];
+        let tmp: Array<node> = [];
 
-        let number: Array<number[]> = []
-        let res: Array<number> = []
+        let number: Array<number[]> = [];
+        let res: Array<number> = [];
 
         queue.push(root);
 
         while(dep > 0){
             console.log(dep);
-            res = []; tmp = []
+            res = []; tmp = [];
 
             for (var i = 0; i < queue.length; i++) {
                 let element: node = queue[i];
