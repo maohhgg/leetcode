@@ -9,12 +9,11 @@
 ### 问题分类
 
 * [所有解 (All)](./doc/All.md)
-
--  [数组 (Array)](./doc/Array.md)
--  [字符串 (String)](./doc/String.md)
--  [数学 (Math)](./doc/Math.md)
--  [链表 (Linked List)](./doc/Linked%20List.md)
--  [树 (Tree)](./doc/Tree.md)
+* [数组 (Array)](./doc/Array.md)
+* [字符串 (String)](./doc/String.md)
+* [数学 (Math)](./doc/Math.md)
+* [链表 (Linked List)](./doc/Linked%20List.md)
+* [树 (Tree)](./doc/Tree.md)
 
 ## 模块
 
