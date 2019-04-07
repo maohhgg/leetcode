@@ -115,7 +115,6 @@ class Tree {
         queue.push(root);
 
         while(dep > 0){
-            console.log(dep);
             res = []; tmp = [];
 
             for (let i = 0; i < queue.length; i++) {
@@ -140,4 +139,4 @@ class Tree {
     }
 }
 
-export { Tree, node }
+export { Tree, TreeNode }

@@ -33,5 +33,5 @@ class IntervalUnit {
 }
 
 
-export { interval, IntervalUnit }
+export { Interval, IntervalUnit }
 
