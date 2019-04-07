@@ -1,6 +1,6 @@
 ## 模块
 
-#### 数组  Interval
+#### 数组 Interval
 
 在数组分类下的 56.[Merge Intervals](https://leetcode.com/problems/merge-intervals/) 和 57.[Insert Interval](https://leetcode.com/problems/merge-intervals/) 需要一个 **Interval** 的对象，这里封装成对象
 
