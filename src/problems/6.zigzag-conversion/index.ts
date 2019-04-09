@@ -3,7 +3,7 @@
  * @param {number} numRows
  * @return {string}
  */
-var convert = (s: string, numRows: number): string => {
+const convert = (s: string, numRows: number): string => {
     if (s.length == 0 || numRows < 2) return s;
 
     let str: Array<string> = Array.apply(null, Array<string>(numRows)).map(() => '');
