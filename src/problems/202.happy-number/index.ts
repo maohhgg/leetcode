@@ -6,7 +6,7 @@ const isHappy = (n: number): boolean => {
     return innerHappy(n)
 };
 
-const innerHappy = (n: number, know: any = null): boolean => {
+const innerHappy = (n: number, know: Set<number> = null): boolean => {
     if (n.toString().replace("0", "") === "1") return true;
 
     know = know || new Set();
