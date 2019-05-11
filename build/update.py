@@ -32,6 +32,16 @@ class Problems:
     dit = '../dist/problems/'
     doc_dir = '../doc/'
     data_dir = '../data/'
+    language = {
+        'index.ts': 'TypeScript',
+        'index.js': 'JavaScript',
+        'index.php': 'PHP',
+        'main.py': 'Python',
+        'go/main.go': 'Go',
+        'main.c': 'C',
+        'main.cpp': 'C++',
+        'main.java': 'Java'
+    }
 
     jsons = 'problems.json'
     json_data = []
@@ -39,22 +49,12 @@ class Problems:
 
     def __init__(self):
         self.get_json('All')
-        self.scan_dir()
+        self.scan_code_dir()
 
     def gen_lang_string(self, p):
         result = []
-        language = {
-            'index.ts': 'TypeScript',
-            'index.js': 'JavaScript',
-            'index.php': 'PHP',
-            'index.go': 'Go',
-            'index.c': 'C',
-            'index.cpp': 'C++',
-            'index.java': 'Java'
-        }
-
         for lang in p.code:
-            result.append("[%s](%s%s.%s/%s)" % (language.get(lang), self.src, p.number, p.name, lang))
+            result.append("[%s](%s%s.%s/%s)" % (self.language.get(lang), self.src, p.number, p.name, lang))
 
         return ','.join(result)
 
@@ -64,11 +64,20 @@ class Problems:
             result.append("[%s](https://leetcode.com/tag/%s)" % (tag, tag.replace(' ', '-').lower()))
         return ', '.join(result)
 
-    def scan_dir(self):
+    def scan_code_dir(self):
         if os.path.isdir(self.src):
             for directory in os.listdir(self.src):
                 d = directory.split('.')
-                self.queue.update({d[0]: Problem(int(d[0]), d[1], os.listdir(self.src + directory))})
+                self.queue.update({d[0]: Problem(int(d[0]), d[1], self.scan_code_file_type(directory))})
+
+    def scan_code_file_type(self, dir):
+        result = []
+        directory = os.path.join(self.src, dir)
+        if os.path.isdir(directory):
+            for root, dirs, files in os.walk(directory,topdown=False):
+                for name in files:
+                    result.append(os.path.join(root, name).replace(directory, '')[1:])
+        return result
 
     def get_json(self, tag):
         if len(self.json_data):
@@ -90,10 +99,10 @@ class Problems:
         file_name = self.doc_dir + tag.replace(' ', '-').lower() + '.md'
 
         if tag != 'All':
-            content = "| ID | Title | Difficulty | Source code |\n|:--:|:-----:|:-----:|:-----:|\n"
+            content = "| ID | Title | Difficulty | Source code |\n|:--:|:-----|:-----:|:-----:|\n"
             template_string = "| $index | [$title]($url)| $difficult | $code_string |\n"
         else:
-            content = "| ID | Title | Difficulty | Tag | Source code |\n|:--:|:---:|:---:|:---:|:----:|\n"
+            content = "| ID | Title | Difficulty | Tag | Source code |\n|:--:|:---|:---:|:---:|:----:|\n"
             template_string = "| $index | [$title]($url)| $difficult | $tags_string | $code_string |\n"
 
         s = Template(template_string)
