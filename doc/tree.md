@@ -2,7 +2,7 @@
  You have solved  **17** / **77** problems.
 
 | ID | Title | Difficulty | Source code |
-|:--:|:-----:|:-----:|:-----:|
+|:--:|:-----|:-----:|:-----:|
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)| Easy | [TypeScript](../src/problems/687.longest-univalue-path/index.ts) |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)| Easy | [TypeScript](../src/problems/637.average-of-levels-in-binary-tree/index.ts) |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)| Easy | [TypeScript](../src/problems/617.merge-two-binary-trees/index.ts) |

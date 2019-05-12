@@ -1,10 +1,13 @@
 # All 
- You have solved  **66** / **666** problems.
+ You have solved  **73** / **666** problems.
 
 | ID | Title | Difficulty | Tag | Source code |
-|:--:|:---:|:---:|:---:|:----:|
+|:--:|:---|:---:|:---:|:----:|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/)| Easy | [Array](https://leetcode.com/tag/array), [Hash Table](https://leetcode.com/tag/hash-table) | [TypeScript](../src/problems/1.two-sum/index.ts) |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| Medium | [Math](https://leetcode.com/tag/math), [Linked List](https://leetcode.com/tag/linked-list) | [TypeScript](../src/problems/2.add-two-numbers/index.ts) |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Medium | [String](https://leetcode.com/tag/string), [Hash Table](https://leetcode.com/tag/hash-table), [Two Pointers](https://leetcode.com/tag/two-pointers) | [TypeScript](../src/problems/3.longest-substring-without-repeating-characters/index.ts) |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| Hard | [Array](https://leetcode.com/tag/array), [Binary Search](https://leetcode.com/tag/binary-search), [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer) | [TypeScript](../src/problems/4.median-of-two-sorted-arrays/index.ts) |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| Medium | [String](https://leetcode.com/tag/string) | [TypeScript](../src/problems/5.longest-palindromic-substring/index.ts) |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)| Medium | [String](https://leetcode.com/tag/string) | [TypeScript](../src/problems/6.zigzag-conversion/index.ts) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)| Easy | [Math](https://leetcode.com/tag/math) | [TypeScript](../src/problems/7.reverse-integer/index.ts) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)| Medium | [String](https://leetcode.com/tag/string), [Math](https://leetcode.com/tag/math) | [TypeScript](../src/problems/8.string-to-integer-(atoi)/index.ts) |
@@ -25,6 +28,7 @@
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)| Easy | [String](https://leetcode.com/tag/string), [Two Pointers](https://leetcode.com/tag/two-pointers) | [TypeScript](../src/problems/28.implement-strstr/index.ts) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)| Easy | [Array](https://leetcode.com/tag/array), [Binary Search](https://leetcode.com/tag/binary-search) | [TypeScript](../src/problems/35.search-insert-position/index.ts) |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/)| Easy | [String](https://leetcode.com/tag/string) | [TypeScript](../src/problems/38.count-and-say/index.ts) |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/)| Medium | [Array](https://leetcode.com/tag/array) | [TypeScript](../src/problems/48.rotate-image/index.ts) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| Easy | [Array](https://leetcode.com/tag/array), [Dynamic Programming](https://leetcode.com/tag/dynamic-programming), [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer) | [TypeScript](../src/problems/53.maximum-subarray/index.ts) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)| Medium | [Array](https://leetcode.com/tag/array) | [TypeScript](../src/problems/54.spiral-matrix/index.ts) |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)| Medium | [Array](https://leetcode.com/tag/array), [Sort](https://leetcode.com/tag/sort) | [TypeScript](../src/problems/56.merge-intervals/index.ts) |
@@ -56,13 +60,16 @@
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)| Easy | [Array](https://leetcode.com/tag/array) | [TypeScript](../src/problems/118.pascals-triangle/index.ts) |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)| Easy | [Array](https://leetcode.com/tag/array) | [TypeScript](../src/problems/119.pascals-triangle-ii/index.ts) |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| Hard | [Tree](https://leetcode.com/tag/tree), [Depth-first Search](https://leetcode.com/tag/depth-first-search) | [TypeScript](../src/problems/124.binary-tree-maximum-path-sum/index.ts) |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/)| Easy | [Hash Table](https://leetcode.com/tag/hash-table), [Bit Manipulation](https://leetcode.com/tag/bit-manipulation) | [TypeScript](../src/problems/136.single-number/index.ts) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| Easy | [Two Pointers](https://leetcode.com/tag/two-pointers), [Linked List](https://leetcode.com/tag/linked-list) | [TypeScript](../src/problems/141.linked-list-cycle/index.ts) |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| Medium | [Two Pointers](https://leetcode.com/tag/two-pointers), [Linked List](https://leetcode.com/tag/linked-list) | [TypeScript](../src/problems/142.linked-list-cycle-ii/index.ts) |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| Medium | [String](https://leetcode.com/tag/string) | [TypeScript](../src/problems/151.reverse-words-in-a-string/index.ts) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)| Easy | [Array](https://leetcode.com/tag/array) | [TypeScript](../src/problems/189.rotate-array/index.ts) |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number/)| Easy | [Math](https://leetcode.com/tag/math), [Hash Table](https://leetcode.com/tag/hash-table) | [TypeScript](../src/problems/202.happy-number/index.ts) |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/)| Medium | [Array](https://leetcode.com/tag/array) | [TypeScript](../src/problems/228.summary-ranges/index.ts) |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)| Easy | [Tree](https://leetcode.com/tag/tree), [Depth-first Search](https://leetcode.com/tag/depth-first-search) | [TypeScript](../src/problems/257.binary-tree-paths/index.ts) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)| Easy | [Array](https://leetcode.com/tag/array), [Two Pointers](https://leetcode.com/tag/two-pointers) | [TypeScript](../src/problems/283.move-zeroes/index.ts) |
+| 289 | [Game of Life](https://leetcode.com/problems/game-of-life/)| Medium | [Array](https://leetcode.com/tag/array) | [TypeScript](../src/problems/289.game-of-life/index.ts) |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)| Easy | [Math](https://leetcode.com/tag/math), [Binary Search](https://leetcode.com/tag/binary-search) | [TypeScript](../src/problems/367.valid-perfect-square/index.ts) |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/)| Easy | [Tree](https://leetcode.com/tag/tree) | [TypeScript](../src/problems/437.path-sum-iii/index.ts) |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)| Easy | [Tree](https://leetcode.com/tag/tree) | [TypeScript](../src/problems/617.merge-two-binary-trees/index.ts) |

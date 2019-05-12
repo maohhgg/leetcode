@@ -2,7 +2,7 @@
  You have solved  **11** / **70** problems.
 
 | ID | Title | Difficulty | Source code |
-|:--:|:-----:|:-----:|:-----:|
+|:--:|:-----|:-----:|:-----:|
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)| Easy | [TypeScript](../src/problems/257.binary-tree-paths/index.ts) |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| Hard | [TypeScript](../src/problems/124.binary-tree-maximum-path-sum/index.ts) |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/)| Medium | [TypeScript](../src/problems/113.path-sum-ii/index.ts) |

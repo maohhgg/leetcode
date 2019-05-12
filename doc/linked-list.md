@@ -2,7 +2,7 @@
  You have solved  **13** / **28** problems.
 
 | ID | Title | Difficulty | Source code |
-|:--:|:-----:|:-----:|:-----:|
+|:--:|:-----|:-----:|:-----:|
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| Medium | [TypeScript](../src/problems/142.linked-list-cycle-ii/index.ts) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| Easy | [TypeScript](../src/problems/141.linked-list-cycle/index.ts) |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Medium | [TypeScript](../src/problems/109.convert-sorted-list-to-binary-search-tree/index.ts) |

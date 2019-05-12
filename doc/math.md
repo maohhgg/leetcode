@@ -1,10 +1,11 @@
 # Math 
- You have solved  **11** / **82** problems.
+ You have solved  **12** / **82** problems.
 
 | ID | Title | Difficulty | Source code |
-|:--:|:-----:|:-----:|:-----:|
+|:--:|:-----|:-----:|:-----:|
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)| Easy | [TypeScript](../src/problems/633.sum-of-square-numbers/index.ts) |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)| Easy | [TypeScript](../src/problems/367.valid-perfect-square/index.ts) |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number/)| Easy | [TypeScript](../src/problems/202.happy-number/index.ts) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)| Easy | [TypeScript](../src/problems/69.sqrt(x)/index.ts) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/)| Easy | [TypeScript](../src/problems/67.add-binary/index.ts) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/)| Easy | [TypeScript](../src/problems/66.plus-one/index.ts) |

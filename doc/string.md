@@ -1,8 +1,8 @@
 # String 
- You have solved  **11** / **94** problems.
+ You have solved  **13** / **94** problems.
 
 | ID | Title | Difficulty | Source code |
-|:--:|:-----:|:-----:|:-----:|
+|:--:|:-----|:-----:|:-----:|
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| Medium | [TypeScript](../src/problems/151.reverse-words-in-a-string/index.ts) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/)| Easy | [TypeScript](../src/problems/67.add-binary/index.ts) |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)| Easy | [TypeScript](../src/problems/58.length-of-last-word/index.ts) |
@@ -14,3 +14,5 @@
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)| Medium | [TypeScript](../src/problems/12.integer-to-roman/index.ts) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)| Medium | [TypeScript](../src/problems/8.string-to-integer-(atoi)/index.ts) |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)| Medium | [TypeScript](../src/problems/6.zigzag-conversion/index.ts) |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| Medium | [TypeScript](../src/problems/5.longest-palindromic-substring/index.ts) |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Medium | [TypeScript](../src/problems/3.longest-substring-without-repeating-characters/index.ts) |
