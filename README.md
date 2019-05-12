@@ -12,12 +12,21 @@
 * [数组 (Array)](./doc/array.md)
 * [字符串 (String)](./doc/string.md)
 * [数学 (Math)](./doc/math.md)
+* [排序 (Sort)](./doc/sort.md)
 * [链表 (Linked List)](./doc/linked-list.md)
+* [递归 (Recursion)](./doc/recursion.md)
+* [栈 (Stack)](./doc/stack.md)
+* [堆 (Heap)](./doc/heap.md)
 * [树 (Tree)](./doc/tree.md)
+* [双指针(Two Pointers)](./doc/two-pointers.md)
+* [位运算 (Bit Manipulation))](./doc/bit-manipulation.md)
+* [哈希表 (Hash Table)](./doc/hash-table.md)
 * [动态规划 (Dynamic Programming)](./doc/dynamic-programming.md)
-* [Hash Table](./doc/hash-table.md)
 * [深度优先搜索 (Depth-first Search)](./doc/depth-first-search.md)
+* [广度优先搜索 (Breadth-first Search)](./doc/breadth-first-search.md)
 * [二分查找 (Binary Search)](./doc/binary-search.md)
+* [分治算法 (Divide and Conquer)](./doc/divide-and-conquer.md)
+
 
 ## 模块
 
@@ -59,11 +68,11 @@ npm install -g typescript
 运行代码和调试代码，需要手动运行指定文件：
 
 ```bash
-problems $ ts-node ./src/problems/1.two-sum/index.ts 	# 运行 TypeScript 脚本
+problems $ ts-node ./src/problems/1.two-sum/index.ts    # 运行 TypeScript 脚本
 problems $ tsc ./src/problems/1.two-sum/index.ts        # 转译成 JavaScript 脚本
 
 # 转译成 JavaScript 脚本后，可以使用 nodejs 运行脚本
-problems $ node ./src/problems/1.two-sum/index.js 		
+problems $ node ./src/problems/1.two-sum/index.js
 ```
 
 ### 其他
@@ -84,7 +93,7 @@ if __name__ == "__main__":
     p.update('Array')
     p.update('Binary Search')
     ...
-    p.update('Breadth-first Search') 
+    p.update('Breadth-first Search')
 ```
 
 需要注意名称必须和 [LeetCode](<https://leetcode.com/problemset/all/>) 的 `tag`名称一致。
@@ -92,4 +101,3 @@ if __name__ == "__main__":
 ## TODO
 
 - [ ] 有生之年完成所有题目 :joy:
-
