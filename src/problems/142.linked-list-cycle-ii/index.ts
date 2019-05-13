@@ -32,10 +32,10 @@ let detectCycle = (head: ListNode): ListNode => {
     return null;
 };
 
-let list = LinkList.createCycleList([1, 2, 3, 4, 5, 6, 8, 9]);
+let list = LinkList.createList([1, 2, 3, 4, 5, 6, 8, 9],true);
 let list2 = LinkList.createList([12, 22, 13, 4, 5, 6, 8, 9]);
 
-LinkList.printCycleList(list);
+LinkList.printList(list,true);
 console.log(detectCycle(list) ? "head.val is " + detectCycle(list).val : "no cycle");
 LinkList.printList(list2);
 console.log(detectCycle(list2) ? "head.val is " + detectCycle(list2).val : "no cycle");

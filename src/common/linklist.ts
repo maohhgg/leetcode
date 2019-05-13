@@ -13,42 +13,29 @@ class ListNode implements node {
 }
 
 class LinkList {
-    static createNode = (num: number): node => {
-        return new ListNode(num);
+    static createNode = (value: number): node => {
+        return new ListNode(value);
     };
 
-    static createList = (nums: number[]): node => {
-        if (nums.length == 0) return null;
+    static createList = (values: number[], cycle:boolean=false): node => {
+        if (values.length == 0) return null;
 
-        let p: node = LinkList.createNode(nums.shift());
-        p.next = LinkList.createList(nums);
+        let len = values.length - 1;
+        let p: node = LinkList.createNode(values.shift());
+        p.next = LinkList.createList(values);
 
+        if (cycle) {
+            let l: node = p;
+            for (let i = 0; i < len; i++) {
+                p = p.next
+            }
+            p.next = l;
+            return l
+        }
         return p;
     };
 
-    static createCycleList = (nums: number[]): node => {
-        let len: number = nums.length - 1;
-        let p: node = LinkList.createList(nums);
-        let l: node = p;
-
-        for (var i = 0; i < len; i++) {
-            p = p.next
-        }
-
-        p.next = l;
-        return l
-    };
-
-    static printList = (head: node) => {
-        let s: string = '';
-        while (head) {
-            s += (head.val + ' -> ');
-            head = head.next
-        }
-        console.log(s.substr(0, s.length - 4))
-    };
-
-    static printCycleList = (head: node) => {
+    static printList = (head: node,cycle:boolean=false) => {
         let s: string = '';
         let p = head;
         while (p) {
@@ -56,10 +43,11 @@ class LinkList {
             if (p.next === head) break;
             p = p.next;
         }
-        console.log(s + "...")
+        if(cycle) console.log(s + "...");
+        else console.log(s.substr(0, s.length - 4));
     };
 
-    static removeNthNode = (head: node, n: number): node => {
+    static removeNNode = (head: node, n: number): node => {
         if (!head) return null;
         if (n == 0) return head.next;
 

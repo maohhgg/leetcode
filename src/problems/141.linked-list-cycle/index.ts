@@ -24,8 +24,8 @@ let hasCycle = (head: ListNode): boolean => {
     return false;
 };
 
-let list = LinkList.createCycleList([1, 2, 3, 4, 5, 6, 8, 9]);
+let list = LinkList.createList([1, 2, 3, 4, 5, 6, 8, 9],true);
 let list2 = LinkList.createList([1, 2, 3, 4, 5, 6, 8, 9]);
-LinkList.printCycleList(list);
+LinkList.printList(list,true);
 console.log(hasCycle(list));
 console.log(hasCycle(list2));
