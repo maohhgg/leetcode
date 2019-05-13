@@ -6,7 +6,8 @@ interface node {
 
 class TreeNode implements node {
 
-    val: number; left: node;
+    val: number;
+    left: node;
     right: node;
 
     constructor(value: number) {
@@ -17,7 +18,6 @@ class TreeNode implements node {
 
 class Tree {
     static result: number[] = [];
-    static depth: number = 0;
 
     static createNode = (num: number): node => {
         return new TreeNode(num);
@@ -27,7 +27,7 @@ class Tree {
         return Tree._createBiTree(nums, 0);
     };
 
-    static _createBiTree = (nums: number[], depth: number): node => {
+    private static _createBiTree = (nums: number[], depth: number): node => {
         let p: node = null;
 
         if (depth < nums.length && nums[depth] != null) {
@@ -57,21 +57,21 @@ class Tree {
         return Tree.result;
     };
 
-    static preOrderTraverse = (root: node) => {
+    private static preOrderTraverse = (root: node) => {
         if (root) {
             Tree.result.push(root.val);
             Tree.preOrderTraverse(root.left);
             Tree.preOrderTraverse(root.right);
         }
     };
-    static inOrderTraverse = (root: node) => {
+    private static inOrderTraverse = (root: node) => {
         if (root) {
             Tree.inOrderTraverse(root.left);
             Tree.result.push(root.val);
             Tree.inOrderTraverse(root.right);
         }
     };
-    static lastOrderTraverse = (root: node) => {
+    private static lastOrderTraverse = (root: node) => {
         if (root) {
             Tree.lastOrderTraverse(root.left);
             Tree.lastOrderTraverse(root.right);
@@ -97,46 +97,41 @@ class Tree {
 
 
     static logTree = (root: node) => {
-        let treeArray: Array<number[]> = Tree._zigzagLevelTraverse(root);
-        Tree.depth = Tree.countDepth(root);
-        treeArray.forEach(array => console.log(array))
+        Tree._zigzagLevelTraverse(root).forEach(a => console.log(a))
     };
 
+    static tableTree = (root: node) => {
+        console.table(Tree._zigzagLevelTraverse(root, true));
+    };
 
-    static _zigzagLevelTraverse = (root: node): Array<number[]> => {
+    private static _zigzagLevelTraverse = (root: node, structure: boolean = false): Array<any[]> => {
         if (!root) return [];
-        let dep = Tree.countDepth(root);
-        let queue: Array<node> = [];
-        let tmp: Array<node> = [];
-
-        let number: Array<number[]> = [];
-        let res: Array<number> = [];
+        let queue: Array<node> = [], tmp: Array<node> = [];
+        let number: Array<any[]> = [], res: any[];
 
         queue.push(root);
 
-        while(dep > 0){
-            res = []; tmp = [];
+        for (let i = Tree.countDepth(root); i > 0; i--) {
+            res = [];tmp = [];
 
-            for (let i = 0; i < queue.length; i++) {
-                let element: node = queue[i];
-                if (element === null) {
-                    res.push(null);
-                    tmp.push(null);
-                    tmp.push(null);
-                    continue;
+            for (let j = 0; j < queue.length; j++) {
+                let e: node = queue[j], v = null;
+
+                if (e === null) tmp = tmp.concat([null, null]);
+                else {
+                    v = e.val;
+                    tmp = tmp.concat([e.left, e.right]);
                 }
-                res.push(element.val);
-                tmp.push(element.left);
-                tmp.push(element.right);
+                if (structure) res[((2 ** (i - 1)) - 1) + (j * (2 ** i))] = v;
+                else res.push(v);
             }
 
             queue = tmp;
             number.push(res);
-            dep--;
         }
 
         return number;
     }
 }
 
-export { Tree, TreeNode }
+export {Tree, TreeNode, node}
