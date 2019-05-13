@@ -48,8 +48,9 @@ function TreeNode(val) {
 在本项目中会实现一些模块，方便我们调试比如 [链表](https://leetcode.com/tag/linked-list/) 和 [树](https://leetcode.com/tag/tree/) 之类的题目。具体使用方式请点击下面链接：
 
 * [数组 IntervalUnit](./doc/module.md#数组-Interval)
-* [链表 LinkList](./doc/module.md#链表)
-* [树 Tree](./doc/module.md#树)
+* [链表 LinkList](./doc/module.md#链表-LinkList)
+* [树 Tree](./doc/module.md#树-Tree)
+* [完全二叉树 PerfectTree](./doc/module.md#完全二叉树-PerfectTree)
 
 ## 使用说明
 
