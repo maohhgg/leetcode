@@ -43,3 +43,5 @@ let m = [
 ];
 setZeroes(m);
 console.log(m);
+
+export {};
