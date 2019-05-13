@@ -18,65 +18,34 @@ class TreeNode implements node {
 
 class Tree {
     static result: number[] = [];
+    static readonly IN:number = 0;
+    static readonly PRE:number = 1;
+    static readonly LAST:number = 2;
 
-    static createNode = (num: number): node => {
-        return new TreeNode(num);
+    static createNode = (value: number): node => {
+        return new TreeNode(value);
     };
 
-    static createBiTree = (nums: number[]): node => {
-        return Tree._createBiTree(nums, 0);
+    static createBiTree = (values: number[]): node => {
+        return Tree._createBiTree(values, 0);
     };
 
-    private static _createBiTree = (nums: number[], depth: number): node => {
-        let p: node = null;
-
-        if (depth < nums.length && nums[depth] != null) {
-            p = new TreeNode(nums[depth]);
-            p.left = Tree._createBiTree(nums, 2 * depth + 1);
-            p.right = Tree._createBiTree(nums, 2 * depth + 2);
-        }
-
-        return p;
-    };
-
-    static traverse = (root: node, orderBy: string = 'pre') => {
+    static traverse = (root: node, order: number = Tree.PRE) => {
         Tree.result = [];
-        switch (orderBy) {
-            case 'pre':
-                Tree.preOrderTraverse(root);
+        switch (order) {
+            case Tree.PRE:
+                Tree._preOrderTraverse(root);
                 break;
-            case 'in':
-                Tree.inOrderTraverse(root);
+            case Tree.IN:
+                Tree._inOrderTraverse(root);
                 break;
-            case 'last':
-                Tree.lastOrderTraverse(root);
+            case Tree.LAST:
+                Tree._lastOrderTraverse(root);
                 break;
             default:
                 break;
         }
         return Tree.result;
-    };
-
-    private static preOrderTraverse = (root: node) => {
-        if (root) {
-            Tree.result.push(root.val);
-            Tree.preOrderTraverse(root.left);
-            Tree.preOrderTraverse(root.right);
-        }
-    };
-    private static inOrderTraverse = (root: node) => {
-        if (root) {
-            Tree.inOrderTraverse(root.left);
-            Tree.result.push(root.val);
-            Tree.inOrderTraverse(root.right);
-        }
-    };
-    private static lastOrderTraverse = (root: node) => {
-        if (root) {
-            Tree.lastOrderTraverse(root.left);
-            Tree.lastOrderTraverse(root.right);
-            Tree.result.push(root.val);
-        }
     };
 
     static countDepth = (root: node): number => {
@@ -104,6 +73,40 @@ class Tree {
         console.table(Tree._zigzagLevelTraverse(root, true));
     };
 
+    private static _createBiTree = (nums: number[], depth: number): node => {
+        let p: node = null;
+
+        if (depth < nums.length && nums[depth] != null) {
+            p = new TreeNode(nums[depth]);
+            p.left = Tree._createBiTree(nums, 2 * depth + 1);
+            p.right = Tree._createBiTree(nums, 2 * depth + 2);
+        }
+
+        return p;
+    };
+
+    private static _preOrderTraverse = (root: node) => {
+        if (root) {
+            Tree.result.push(root.val);
+            Tree._preOrderTraverse(root.left);
+            Tree._preOrderTraverse(root.right);
+        }
+    };
+    private static _inOrderTraverse = (root: node) => {
+        if (root) {
+            Tree._inOrderTraverse(root.left);
+            Tree.result.push(root.val);
+            Tree._inOrderTraverse(root.right);
+        }
+    };
+    private static _lastOrderTraverse = (root: node) => {
+        if (root) {
+            Tree._lastOrderTraverse(root.left);
+            Tree._lastOrderTraverse(root.right);
+            Tree.result.push(root.val);
+        }
+    };
+
     private static _zigzagLevelTraverse = (root: node, structure: boolean = false): Array<any[]> => {
         if (!root) return [];
         let queue: Array<node> = [], tmp: Array<node> = [];
@@ -112,7 +115,8 @@ class Tree {
         queue.push(root);
 
         for (let i = Tree.countDepth(root); i > 0; i--) {
-            res = [];tmp = [];
+            res = [];
+            tmp = [];
 
             for (let j = 0; j < queue.length; j++) {
                 let e: node = queue[j], v = null;
