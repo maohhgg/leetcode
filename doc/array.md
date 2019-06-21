@@ -1,5 +1,5 @@
 # Array 
- You have solved  **24** / **124** problems.
+ You have solved  **25** / **124** problems.
 
 | ID | Title | Difficulty | Source code |
 |:--:|:-----|:-----:|:-----:|
@@ -7,6 +7,7 @@
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)| Easy | [TypeScript](../src/problems/283.move-zeroes/index.ts) |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/)| Medium | [TypeScript](../src/problems/228.summary-ranges/index.ts) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)| Easy | [TypeScript](../src/problems/189.rotate-array/index.ts) |
+| 120 | [Triangle](https://leetcode.com/problems/triangle/)| Medium | [TypeScript](../src/problems/120.triangle/index.ts) |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)| Easy | [TypeScript](../src/problems/119.pascals-triangle-ii/index.ts) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)| Easy | [TypeScript](../src/problems/118.pascals-triangle/index.ts) |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| Medium | [TypeScript](../src/problems/106.construct-binary-tree-from-inorder-and-postorder-traversal/index.ts) |

@@ -1,5 +1,5 @@
 # All 
- You have solved  **73** / **666** problems.
+ You have solved  **77** / **666** problems.
 
 | ID | Title | Difficulty | Tag | Source code |
 |:--:|:---|:---:|:---:|:----:|
@@ -55,10 +55,14 @@
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Easy | [Tree](./tree.md), [Breadth-first Search](./breadth-first-search.md) | [TypeScript](../src/problems/107.binary-tree-level-order-traversal-ii/index.ts) |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| Easy | [Tree](./tree.md), [Depth-first Search](./depth-first-search.md) | [TypeScript](../src/problems/108.convert-sorted-array-to-binary-search-tree/index.ts) |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Medium | [Depth-first Search](./depth-first-search.md), [Linked List](./linked-list.md) | [TypeScript](../src/problems/109.convert-sorted-list-to-binary-search-tree/index.ts) |
+| 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)| Easy | [Tree](./tree.md), [Depth-first Search](./depth-first-search.md) | [TypeScript](../src/problems/110.balanced-binary-tree/index.ts) |
+| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| Easy | [Tree](./tree.md), [Depth-first Search](./depth-first-search.md), [Breadth-first Search](./breadth-first-search.md) | [TypeScript](../src/problems/111.minimum-depth-of-binary-tree/index.ts) |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/)| Easy | [Tree](./tree.md), [Depth-first Search](./depth-first-search.md) | [TypeScript](../src/problems/112.path-sum/index.ts) |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/)| Medium | [Tree](./tree.md), [Depth-first Search](./depth-first-search.md) | [TypeScript](../src/problems/113.path-sum-ii/index.ts) |
+| 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)| Medium | [Tree](./tree.md), [Depth-first Search](./depth-first-search.md) | [TypeScript](../src/problems/116.populating-next-right-pointers-in-each-node/index.ts) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)| Easy | [Array](./array.md) | [TypeScript](../src/problems/118.pascals-triangle/index.ts) |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)| Easy | [Array](./array.md) | [TypeScript](../src/problems/119.pascals-triangle-ii/index.ts) |
+| 120 | [Triangle](https://leetcode.com/problems/triangle/)| Medium | [Array](./array.md), [Dynamic Programming](./dynamic-programming.md) | [TypeScript](../src/problems/120.triangle/index.ts) |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| Hard | [Tree](./tree.md), [Depth-first Search](./depth-first-search.md) | [TypeScript](../src/problems/124.binary-tree-maximum-path-sum/index.ts) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/)| Easy | [Hash Table](./hash-table.md), [Bit Manipulation](./bit-manipulation.md) | [TypeScript](../src/problems/136.single-number/index.ts) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| Easy | [Two Pointers](./two-pointers.md), [Linked List](./linked-list.md) | [TypeScript](../src/problems/141.linked-list-cycle/index.ts) |
