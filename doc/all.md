@@ -1,5 +1,5 @@
 # All 
- You have solved  **77** / **666** problems.
+ You have solved  **83** / **666** problems.
 
 | ID | Title | Difficulty | Tag | Source code |
 |:--:|:---|:---:|:---:|:----:|
@@ -36,6 +36,9 @@
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)| Easy | [String](./string.md) | [TypeScript](../src/problems/58.length-of-last-word/index.ts) |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)| Medium | [Array](./array.md) | [TypeScript](../src/problems/59.spiral-matrix-ii/index.ts) |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/)| Medium | [Two Pointers](./two-pointers.md), [Linked List](./linked-list.md) | [TypeScript](../src/problems/61.rotate-list/index.ts) |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/)| Medium | [Array](./array.md), [Dynamic Programming](./dynamic-programming.md) | [TypeScript](../src/problems/62.unique-paths/index.ts) |
+| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)| Medium | [Array](./array.md), [Dynamic Programming](./dynamic-programming.md) | [TypeScript](../src/problems/63.unique-paths-ii/index.ts) |
+| 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)| Medium | [Array](./array.md), [Dynamic Programming](./dynamic-programming.md) | [TypeScript](../src/problems/64.minimum-path-sum/index.ts) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/)| Easy | [Array](./array.md), [Math](./math.md) | [TypeScript](../src/problems/66.plus-one/index.ts) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/)| Easy | [String](./string.md), [Math](./math.md) | [TypeScript](../src/problems/67.add-binary/index.ts) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)| Easy | [Math](./math.md), [Binary Search](./binary-search.md) | [TypeScript](../src/problems/69.sqrt(x)/index.ts) |
@@ -63,6 +66,9 @@
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)| Easy | [Array](./array.md) | [TypeScript](../src/problems/118.pascals-triangle/index.ts) |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)| Easy | [Array](./array.md) | [TypeScript](../src/problems/119.pascals-triangle-ii/index.ts) |
 | 120 | [Triangle](https://leetcode.com/problems/triangle/)| Medium | [Array](./array.md), [Dynamic Programming](./dynamic-programming.md) | [TypeScript](../src/problems/120.triangle/index.ts) |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| Easy | [Array](./array.md), [Dynamic Programming](./dynamic-programming.md) | [TypeScript](../src/problems/121.best-time-to-buy-and-sell-stock/index.ts) |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| Easy | [Array](./array.md), [Greedy](./greedy.md) | [TypeScript](../src/problems/122.best-time-to-buy-and-sell-stock-ii/index.ts) |
+| 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| Hard | [Array](./array.md), [Dynamic Programming](./dynamic-programming.md) | [TypeScript](../src/problems/123.best-time-to-buy-and-sell-stock-iii/index.ts) |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| Hard | [Tree](./tree.md), [Depth-first Search](./depth-first-search.md) | [TypeScript](../src/problems/124.binary-tree-maximum-path-sum/index.ts) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/)| Easy | [Hash Table](./hash-table.md), [Bit Manipulation](./bit-manipulation.md) | [TypeScript](../src/problems/136.single-number/index.ts) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| Easy | [Two Pointers](./two-pointers.md), [Linked List](./linked-list.md) | [TypeScript](../src/problems/141.linked-list-cycle/index.ts) |

@@ -1,5 +1,5 @@
 # Array 
- You have solved  **25** / **124** problems.
+ You have solved  **31** / **124** problems.
 
 | ID | Title | Difficulty | Source code |
 |:--:|:-----|:-----:|:-----:|
@@ -7,6 +7,9 @@
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)| Easy | [TypeScript](../src/problems/283.move-zeroes/index.ts) |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/)| Medium | [TypeScript](../src/problems/228.summary-ranges/index.ts) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)| Easy | [TypeScript](../src/problems/189.rotate-array/index.ts) |
+| 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| Hard | [TypeScript](../src/problems/123.best-time-to-buy-and-sell-stock-iii/index.ts) |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| Easy | [TypeScript](../src/problems/122.best-time-to-buy-and-sell-stock-ii/index.ts) |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| Easy | [TypeScript](../src/problems/121.best-time-to-buy-and-sell-stock/index.ts) |
 | 120 | [Triangle](https://leetcode.com/problems/triangle/)| Medium | [TypeScript](../src/problems/120.triangle/index.ts) |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)| Easy | [TypeScript](../src/problems/119.pascals-triangle-ii/index.ts) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)| Easy | [TypeScript](../src/problems/118.pascals-triangle/index.ts) |
@@ -15,6 +18,9 @@
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| Easy | [TypeScript](../src/problems/88.merge-sorted-array/index.ts) |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)| Medium | [TypeScript](../src/problems/73.set-matrix-zeroes/index.ts) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/)| Easy | [TypeScript](../src/problems/66.plus-one/index.ts) |
+| 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)| Medium | [TypeScript](../src/problems/64.minimum-path-sum/index.ts) |
+| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)| Medium | [TypeScript](../src/problems/63.unique-paths-ii/index.ts) |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/)| Medium | [TypeScript](../src/problems/62.unique-paths/index.ts) |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)| Medium | [TypeScript](../src/problems/59.spiral-matrix-ii/index.ts) |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/)| Hard | [TypeScript](../src/problems/57.insert-interval/index.ts) |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)| Medium | [TypeScript](../src/problems/56.merge-intervals/index.ts) |
