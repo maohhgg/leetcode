@@ -1,5 +1,5 @@
 # All 
- You have solved  **83** / **666** problems.
+ You have solved  **84** / **666** problems.
 
 | ID | Title | Difficulty | Tag | Source code |
 |:--:|:---|:---:|:---:|:----:|
@@ -43,6 +43,7 @@
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/)| Easy | [String](./string.md), [Math](./math.md) | [TypeScript](../src/problems/67.add-binary/index.ts) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)| Easy | [Math](./math.md), [Binary Search](./binary-search.md) | [TypeScript](../src/problems/69.sqrt(x)/index.ts) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| Easy | [Dynamic Programming](./dynamic-programming.md) | [TypeScript](../src/problems/70.climbing-stairs/index.ts) |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/)| Hard | [Dynamic Programming](./dynamic-programming.md), [String](./string.md) | [TypeScript](../src/problems/72.edit-distance/index.ts) |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)| Medium | [Array](./array.md) | [TypeScript](../src/problems/73.set-matrix-zeroes/index.ts) |
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| Medium | [Linked List](./linked-list.md) | [TypeScript](../src/problems/82.remove-duplicates-from-sorted-list-ii/index.ts) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| Easy | [Linked List](./linked-list.md) | [TypeScript](../src/problems/83.remove-duplicates-from-sorted-list/index.ts) |

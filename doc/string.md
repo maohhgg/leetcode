@@ -1,9 +1,10 @@
 # String 
- You have solved  **13** / **94** problems.
+ You have solved  **14** / **94** problems.
 
 | ID | Title | Difficulty | Source code |
 |:--:|:-----|:-----:|:-----:|
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| Medium | [TypeScript](../src/problems/151.reverse-words-in-a-string/index.ts) |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/)| Hard | [TypeScript](../src/problems/72.edit-distance/index.ts) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/)| Easy | [TypeScript](../src/problems/67.add-binary/index.ts) |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)| Easy | [TypeScript](../src/problems/58.length-of-last-word/index.ts) |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/)| Easy | [TypeScript](../src/problems/38.count-and-say/index.ts) |
