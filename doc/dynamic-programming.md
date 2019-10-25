@@ -1,11 +1,12 @@
 # Dynamic Programming 
- You have solved  **10** / **99** problems.
+ You have solved  **11** / **99** problems.
 
 | ID | Title | Difficulty | Source code |
 |:--:|:-----|:-----:|:-----:|
 | 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| Hard | [TypeScript](../src/problems/123.best-time-to-buy-and-sell-stock-iii/index.ts) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| Easy | [TypeScript](../src/problems/121.best-time-to-buy-and-sell-stock/index.ts) |
 | 120 | [Triangle](https://leetcode.com/problems/triangle/)| Medium | [TypeScript](../src/problems/120.triangle/index.ts) |
+| 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)| Medium | [TypeScript](../src/problems/96.unique-binary-search-trees/index.ts) |
 | 87 | [Scramble String](https://leetcode.com/problems/scramble-string/)| Hard | [TypeScript](../src/problems/87.scramble-string/index.ts) |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/)| Hard | [TypeScript](../src/problems/72.edit-distance/index.ts) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| Easy | [TypeScript](../src/problems/70.climbing-stairs/index.ts) |

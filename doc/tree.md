@@ -1,5 +1,5 @@
 # Tree 
- You have solved  **20** / **77** problems.
+ You have solved  **21** / **77** problems.
 
 | ID | Title | Difficulty | Source code |
 |:--:|:-----|:-----:|:-----:|
@@ -23,3 +23,4 @@
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Medium | [TypeScript](../src/problems/102.binary-tree-level-order-traversal/index.ts) |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| Easy | [TypeScript](../src/problems/101.symmetric-tree/index.ts) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/)| Easy | [TypeScript](../src/problems/100.same-tree/index.ts) |
+| 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)| Medium | [TypeScript](../src/problems/96.unique-binary-search-trees/index.ts) |

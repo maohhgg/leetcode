@@ -1,5 +1,5 @@
 # All 
- You have solved  **85** / **666** problems.
+ You have solved  **86** / **666** problems.
 
 | ID | Title | Difficulty | Tag | Source code |
 |:--:|:---|:---:|:---:|:----:|
@@ -50,6 +50,7 @@
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/)| Medium | [Two Pointers](./two-pointers.md), [Linked List](./linked-list.md) | [TypeScript](../src/problems/86.partition-list/index.ts) |
 | 87 | [Scramble String](https://leetcode.com/problems/scramble-string/)| Hard | [Dynamic Programming](./dynamic-programming.md), [String](./string.md) | [TypeScript](../src/problems/87.scramble-string/index.ts) |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| Easy | [Array](./array.md), [Two Pointers](./two-pointers.md) | [TypeScript](../src/problems/88.merge-sorted-array/index.ts) |
+| 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)| Medium | [Dynamic Programming](./dynamic-programming.md), [Tree](./tree.md) | [TypeScript](../src/problems/96.unique-binary-search-trees/index.ts) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/)| Easy | [Tree](./tree.md), [Depth-first Search](./depth-first-search.md) | [TypeScript](../src/problems/100.same-tree/index.ts) |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| Easy | [Tree](./tree.md), [Depth-first Search](./depth-first-search.md), [Breadth-first Search](./breadth-first-search.md) | [TypeScript](../src/problems/101.symmetric-tree/index.ts) |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Medium | [Tree](./tree.md), [Breadth-first Search](./breadth-first-search.md) | [TypeScript](../src/problems/102.binary-tree-level-order-traversal/index.ts) |
