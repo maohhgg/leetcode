@@ -1,5 +1,5 @@
 # All 
- You have solved  **84** / **666** problems.
+ You have solved  **85** / **666** problems.
 
 | ID | Title | Difficulty | Tag | Source code |
 |:--:|:---|:---:|:---:|:----:|
@@ -48,6 +48,7 @@
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| Medium | [Linked List](./linked-list.md) | [TypeScript](../src/problems/82.remove-duplicates-from-sorted-list-ii/index.ts) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| Easy | [Linked List](./linked-list.md) | [TypeScript](../src/problems/83.remove-duplicates-from-sorted-list/index.ts) |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/)| Medium | [Two Pointers](./two-pointers.md), [Linked List](./linked-list.md) | [TypeScript](../src/problems/86.partition-list/index.ts) |
+| 87 | [Scramble String](https://leetcode.com/problems/scramble-string/)| Hard | [Dynamic Programming](./dynamic-programming.md), [String](./string.md) | [TypeScript](../src/problems/87.scramble-string/index.ts) |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| Easy | [Array](./array.md), [Two Pointers](./two-pointers.md) | [TypeScript](../src/problems/88.merge-sorted-array/index.ts) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/)| Easy | [Tree](./tree.md), [Depth-first Search](./depth-first-search.md) | [TypeScript](../src/problems/100.same-tree/index.ts) |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| Easy | [Tree](./tree.md), [Depth-first Search](./depth-first-search.md), [Breadth-first Search](./breadth-first-search.md) | [TypeScript](../src/problems/101.symmetric-tree/index.ts) |
